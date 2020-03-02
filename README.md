@@ -14,7 +14,7 @@
 Please use android-ktx instead. (ref. https://android.github.io/android-ktx/core-ktx/androidx.content/android.content.-context/system-service.html)
 
 ```kotlin
-final notificationManager = context.systemService<NotificationManager>();
+val notificationManager = context.systemService<NotificationManager>();
 ```
 
 ## Usage
