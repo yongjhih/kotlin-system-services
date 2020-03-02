@@ -1,4 +1,4 @@
-# kotlin-system-services
+# [Deprecated] kotlin-system-services
 
 <!--[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RxParse-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1670)-->
 <!--[![Download](https://api.bintray.com/packages/yongjhih/maven/kotlin-system-services/images/download.svg) ](https://bintray.com/yongjhih/maven/kotlin-system-services/_latestVersion)-->
@@ -8,6 +8,14 @@
 [![Join the chat at https://gitter.im/yongjhih/kotlin-system-services](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/kotlin-system-services?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![](art/kotlin-system-services.png)
+
+## Deprecated
+
+Please use android-ktx instead. (ref. https://android.github.io/android-ktx/core-ktx/androidx.content/android.content.-context/system-service.html)
+
+```kotlin
+final notificationManager = context.systemService<NotificationManager>();
+```
 
 ## Usage
 
